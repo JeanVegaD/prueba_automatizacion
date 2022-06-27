@@ -1,0 +1,45 @@
+[
+  { "number1":"21test/3%2 3" , "number2":7, "operator": "Add", "result":0, "errorMsg": "Number 1 is not a number" },
+  { "number1":7 , "number2":"21test/3%2 3", "operator": "Add", "result":0, "errorMsg": "Number 2 is not a number" },
+  { "number1":"21test/3%2 3" , "number2":7, "operator": "Subtract", "result":0, "errorMsg": "Number 1 is not a number" },
+  { "number1":7 , "number2":"21test/3%2 3", "operator": "Subtract", "result":0, "errorMsg": "Number 2 is not a number" },
+  { "number1":"21test/3%2 3" , "number2":7, "operator": "Multiply", "result":0, "errorMsg": "Number 1 is not a number" },
+  { "number1":7 , "number2":"21test/3%2 3", "operator": "Multiply", "result":0, "errorMsg": "Number 2 is not a number" },
+  { "number1":"21test/3%2 3" , "number2":7, "operator": "Divide", "result":0, "errorMsg": "Number 1 is not a number" },
+  { "number1":7 , "number2":"21test/3%2 3", "operator": "Divide", "result":0, "errorMsg": "Number 2 is not a number" },
+
+  { "number1":15 , "number2":5, "operator": "Add", "result":20, "errorMsg": "" },
+  { "number1":-5 , "number2":-10, "operator": "Add", "result":-15, "errorMsg": "" },
+  { "number1":10 , "number2":-5, "operator": "Add", "result":5, "errorMsg": "" },
+  { "number1":10.5 , "number2":5.2, "operator": "Add", "result":15.7, "errorMsg": "" },
+  { "number1":10, "number2":5.5, "operator": "Add", "result":15.5, "errorMsg": "" },
+
+  { "number1":15 , "number2":5, "operator": "Subtract", "result":10, "errorMsg": "" },
+  { "number1":-5 , "number2":-10, "operator": "Subtract", "result":5, "errorMsg": "" },
+  { "number1":10 , "number2":-5, "operator": "Subtract", "result":15, "errorMsg": "" },
+  { "number1":10.5 , "number2":5.2, "operator": "Subtract", "result":5.3, "errorMsg": "" },
+  { "number1":10, "number2":5.5, "operator": "Subtract", "result":4.5, "errorMsg": "" },
+
+  { "number1":15 , "number2":5, "operator": "Multiply", "result":75, "errorMsg": "" },
+  { "number1":-5 , "number2":-10, "operator": "Multiply", "result":50, "errorMsg": "" },
+  { "number1":10 , "number2":-5, "operator": "Multiply", "result":-50, "errorMsg": "" },
+  { "number1":10.5 , "number2":5.2, "operator": "Multiply", "result":54.6, "errorMsg": "" },
+  { "number1":10, "number2":5.5, "operator": "Multiply", "result":55, "errorMsg": "" },
+
+  { "number1":15 , "number2":5, "operator": "Divide", "result":3, "errorMsg": "" },
+  { "number1":-5 , "number2":-10, "operator": "Divide", "result":0.5, "errorMsg": "" },
+  { "number1":10 , "number2":-5, "operator": "Divide", "result":-2, "errorMsg": "" },
+  { "number1":10.6 , "number2":5.2, "operator": "Divide", "result":2.03846153846, "errorMsg": "" },
+  { "number1":10, "number2":5.5, "operator": "Divide", "result":1.81818181818, "errorMsg": "" },
+  { "number1":0, "number2":5, "operator": "Divide", "result":0, "errorMsg": "" },
+  { "number1":5, "number2":0, "operator": "Divide", "result":0, "errorMsg": "Divide by zero error!" },
+
+  { "number1":15 , "number2":5, "operator": "Concatenate", "result":155, "errorMsg": "" },
+  { "number1":-5 , "number2":-10, "operator": "Concatenate", "result":"-5-10", "errorMsg": "" },
+  { "number1":10 , "number2":-5, "operator": "Concatenate", "result":"10-5", "errorMsg": "" },
+  { "number1":10.5 , "number2":5.2, "operator": "Concatenate", "result":"10.55.2", "errorMsg": "" },
+  { "number1":10, "number2":5.5, "operator": "Concatenate", "result":"105.5", "errorMsg": "" },
+  { "number1":"hola" , "number2":"munod", "operator": "Concatenate", "result":"holamundo", "errorMsg": "" },
+  { "number1":10, "number2":"hola", "operator": "Concatenate", "result":"10hola", "errorMsg": "" }
+
+]
